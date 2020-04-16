@@ -15,14 +15,19 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand" href="#"><strong>Aprendiendo en casa</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+
+    <nav id="menu-principal" class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#"> <img src ="assets/img/home.png" class= imagen-nav> </a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav text-center ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Juego 1</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Juego 2</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Juego 3</a></li>
+                    <li class="nav-item" role="presentation"> <a class="nav-link" href="#"> <img src ="assets/img/more.png" class= imagen-nav> </a></li>
+                    <li class="nav-item" role="presentation"> <a class="nav-link" href="#"> <img src ="assets/img/minus.png" class= imagen-nav> </a></li>
+                    <li class="nav-item" role="presentation"> <a class="nav-link" href="#"> <img src ="assets/img/multiplication.png" class= imagen-nav> </a></li>
+                    <li class="nav-item" role="presentation"> <a class="nav-link" href="#"> <img src ="assets/img/division.png" class= imagen-nav> </a></li>
+                    <li class="nav-item" role="presentation"> <a class="nav-link" href="#"> <img src ="assets/img/online.png" class= imagen-nav> </a></li>
+                    <li class="nav-item" role="presentation"> <a class="nav-link" href="#"> <img src ="assets/img/formula.png" class= imagen-nav> </a></li>
+
                 </ul>
         </div>
         </div>
@@ -33,27 +38,43 @@
             <p><a class="btn btn-primary" role="button">¡Jugar!</a></p>
         </div>
     </div>
-    <div class="container site-section" id="welcome">
-        <h1>Aquí encontrarás los mejores juegos para niños bonitos</h1>
-        <p>Hemos trabajado cuidadosamente en juegos digitales para que aprendas de manera rápida y ¡muy divertida!</p>
-    </div>
+    
+
     <div class="container site-section" id="why">
-        <h1>¿Por qué nuestros juegos son los mejores?</h1>
+        <h1> Selecciona tu juego favorito </h1>
         <div class="row">
             <div class="col-md-4 item"><i class="icon ion-ios-plus-empty"></i>
+                <img class= imagenjuegos id= sumaimagen src ="assets/img/more.png" />
                 <h2>Sumas</h2>
-                <p>Paragraph</p>
             </div>
             <div class="col-md-4 item"><i class="icon ion-ios-minus-empty"></i>
+                <img class= imagenjuegos id= restaimagen src ="assets/img/minus.png" />
                 <h2>Restas</h2>
-                <p>Paragraph</p>
             </div>
             <div class="col-md-4 item"><i class="la la-xing-square"></i>
+                <img class= imagenjuegos id= multiplicacionimagen src ="assets/img/multiplication.png" />
                 <h2>Multiplicación</h2>
-                <p>Paragraph</p>
             </div>
         </div>
     </div>
+
+    <div class="container site-section" id="why">
+        <div class="row">
+            <div class="col-md-4 item"><i class="icon ion-ios-plus-empty"></i>
+                <img class= imagenjuegos id= divisionimagen src ="assets/img/division.png" />
+                <h2>División</h2>
+            </div>
+            <div class="col-md-4 item"><i class="icon ion-ios-minus-empty"></i>
+                <img class= imagenjuegos id= bancoimagen src ="assets/img/online.png" />
+                <h2>Banco</h2>
+            </div>
+            <div class="col-md-4 item"><i class="icon ion-ios-minus-empty"></i>
+                <img class= imagenjuegos id= formulaimagen src ="assets/img/formula.png" />
+                <h2>Fórmula</h2>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
