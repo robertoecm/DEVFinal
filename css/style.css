@@ -1,8 +1,9 @@
 #promo {
-    background: url(../../assets/img/lindos-ninos.jpg);
+    
+    background-image: url('../assets/img/6179.jpg');
     background-size: contain;
     /*padding-bottom: 200px;*/
-    text-align: center;
+    text-align: cover;
     padding: 140px;
     /*align-content: center;*/
   }
@@ -19,6 +20,7 @@
     max-width: 600px;
     padding: 60px;
     margin: auto;
+    text-align: center;
   }
   
   @media (max-width: 991px) {
@@ -66,5 +68,3 @@
   
   .jumbotron h1 {
   }
-  
-  
