@@ -1,0 +1,1 @@
+//document.getElementById('boton-primario').innerHTML = "Juegos locos"
