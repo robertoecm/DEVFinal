@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aprendiendo en Casa</title>
+</head>
+<body onload="init();">
+    <nav class="navbar navbar-expand-lg" style= "background-color: rgb(113, 247, 235)">
+        <a class="navbar-brand" href="#"><img src="./images/home.png" class="img-home" alt=""></a>
+        <a class="learn">¡APRENDIENDO EN CASA!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuport" 
+            aria-controls="navbarSuport" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSuport">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="more.html" data-value="more"><img src="./images/more.png" class="img-more" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="minus.html" data-value="minus"><img src="./images/minus.png" class="img-minus" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="multiplication.html" data-value="multiplication"><img src="./images/multiplication.png" class="img-multiplication" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="division.html" data-value="division"><img src="./images/division.png" class="img-division" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-value="online"><img src="./images/online.png" class="img-online" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-value="table-multiplication"><img src="./images/formula.png" class="img-formula" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header">
+		<div class="container">
+            <div class="description">
+                <h1>¡APRENDIENDO A MULTIPLICAR!</h1>
+                <!-- <img src="./images/fondo.jpeg" class="img-fond"> -->
+            </div>
+        </div>
+        <div class="Instruccion">
+            <h3>Pulsa el botón  =</h3>
+            <h3>Ingresa el resultado de la operación.</h3>
+        </div>
+        <table class = "calculadora">
+            <tr>
+                <td colspan="4"><span id="resultado"></span></td>
+            </tr>    
+            <tr>
+                <td><button id="num1">#1</button></td>
+                <td><button id="oper">*</button></td>
+                <td><button id="num2">#2</button></td>
+                <td><button id="equal">=</button></td>
+            </tr>
+          </table>
+    </header>
+
+    <footer class="footer text-center">
+        Derechos Reservado &copy; Aprendiendo en Casa    
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+<script src="./js/script.js"></script>
+</html>

@@ -1,0 +1,134 @@
+html, body{
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    background-image: url('../images/fondo.jpeg'); /*.. busca fuera de la carpeta ../../ dos carpetas fueras y asi sucesivamente */
+    background-attachment: fixed; 
+    background-size: cover; /* tratar de cubrir todo el espacio disponible el 100% de la pantalla*/
+    background-position: center;
+    height: 100%;
+}
+
+.learn{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.img-home{
+    width: 35px;
+}
+
+.img-more{
+    width: 25px;
+}
+
+.img-minus{
+    width: 25px;
+}
+
+.img-multiplication{
+    width: 25px;
+}
+
+.img-division{
+    width: 25px;
+}
+
+.img-online{
+    width: 30px;
+}
+
+.img-formula{
+    width: 30px;
+}
+
+.description{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Algerian', cursive;
+    color: white;
+}
+
+.img-fond{
+    width: 80%;
+    height: 80%;
+
+}
+
+.Instruccion{
+    text-align: center;
+    font-family: Bodoni MT Black;
+    color:rgb(223, 215, 215);
+  }
+  
+  #resultado{
+    display:block;
+    margin-top: 20px;
+    margin-left: 500px; 
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 355px;
+    height: 100px;
+    line-height: 100px;
+    background-color: greenyellow;
+    border-radius: 25px;
+    font-size: 54px;
+    /*overflow-y: scroll;*/
+  }
+
+  #num1{
+    display: flex;
+    margin-left: 500px;
+    align-content: center;
+    align-items: center;
+    display: block;
+    width: 81px;
+    height: 135px;
+    font-size: 37px;
+    background-color: rgb(20, 162, 167);
+  }
+
+  #oper{
+    display: flex;
+    margin-left: 10px;
+    align-content: center;
+    align-items: center;
+    display: block;
+    width: 81px;
+    height: 135px;
+    font-size: 37px;
+    background-color: rgb(34, 248, 44);
+  }
+  
+  #num2{
+    display: flex;
+    margin-left: 10px;
+    align-content: center;
+    align-items: center;
+    display: block;
+    width: 81px;
+    height: 135px;
+    font-size: 37px;
+    background-color: rgb(238, 255, 0);
+  }
+
+  #equal{
+    display: flex;
+    margin-left: 10px;
+    align-content: center;
+    align-items: center;
+    display: block;
+    width: 81px;
+    height: 135px;
+    font-size: 65px;
+    background-color: rgb(238, 37, 23);
+  }
+  
+.footer {
+    
+    position: relative;
+    background-color: aquamarine;
+}
